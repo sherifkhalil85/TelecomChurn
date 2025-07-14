@@ -21,7 +21,7 @@ st.set_page_config(
 def load_raw_data():
     """Load the raw telecom customer churn data"""
     try:
-        df = pd.read_csv('telecom_customer_churn_clustered.csv')
+        df = pd.read_csv('Data/telecom_customer_churn_clustered.csv')
         return df
     except FileNotFoundError:
         st.error("Raw data file not found. Please ensure Data is available.")
