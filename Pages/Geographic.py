@@ -18,7 +18,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('telecom_customer_churn_clustered.csv')
+    df = pd.read_csv('Data/telecom_customer_churn_clustered.csv')
     # Prepare churn map data (from your notebook)
     map_df = df.copy()
     map_df['Churn'] = map_df['Churn'].replace({2:0})  # Convert churn labels if needed
