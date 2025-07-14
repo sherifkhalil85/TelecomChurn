@@ -49,11 +49,9 @@ cluster_mapping = retention_df.set_index('Cluster')['Persona'].to_dict()
 
 @st.cache_data
 def load_unique_cities():
-    # Replace with your actual data loading method
-    # Example: pd.read_csv('data.csv')['City'].unique()
-    return np.sort(pd.read_csv('telecom_customer_churn_clustered.csv', usecols=['City'])['City'].dropna().unique())
+    return np.sort(pd.read_csv('Data/telecom_customer_churn_clustered.csv', usecols=['City'])['City'].dropna().unique())
 
-# 2. In your form section, replace the city input with:
+
 cities = load_unique_cities()
 
 # ----------------------------
