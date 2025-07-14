@@ -18,7 +18,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("telecom_customer_churn_clustered.csv")
+    return pd.read_csv("Data/telecom_customer_churn_clustered.csv")
 
 df = load_data()
 
