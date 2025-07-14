@@ -1,0 +1,8 @@
+streamlit         # App interface
+pandas            # Data manipulation
+numpy             # Numerical operations
+plotly            # Interactive plots (express + graph_objects)
+seaborn           # Statistical plots
+matplotlib        # Static backend for seaborn
+scikit-learn      # ML models, preprocessing
+joblib            # Model serialization
