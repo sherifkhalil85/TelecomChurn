@@ -8,3 +8,4 @@ scikit-learn      # ML models, preprocessing
 joblib            # Model serialization
 gdown             # For Google Drive
 category-encoders # For Pipeline
+xgboost           # for Pipline
