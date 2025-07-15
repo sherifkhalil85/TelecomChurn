@@ -6,3 +6,4 @@ seaborn           # Statistical plots
 matplotlib        # Static backend for seaborn
 scikit-learn      # ML models, preprocessing
 joblib            # Model serialization
+gdown             # For Google Drive
