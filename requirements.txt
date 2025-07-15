@@ -4,10 +4,5 @@ numpy           # Numerical operations
 plotly                    # Interactive plots (express + graph_objects)
 seaborn                   # Statistical plots
 matplotlib                # Static backend for seaborn
-scikit-learn      # ML models, preprocessing
-joblib                     # Model serialization
-
-category-encoders   # For Pipeline
-xgboost            # for Pipline
 
 
