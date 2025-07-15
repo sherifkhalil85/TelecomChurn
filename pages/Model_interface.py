@@ -1,8 +1,6 @@
 import streamlit as st
 import joblib
 import gdown  
-from io import
-import requests
 
 
 # ----------------------------
