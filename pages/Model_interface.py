@@ -9,22 +9,16 @@ import gdown
 
 @st.cache_resource
 def load_classification_pipeline():
-    gdown.download(
-        "https://drive.google.com/uc?id=1GdLXHEbxEaNHELIafpODorz9znx3J1RD",
-        "pipeline.joblib",
-        quiet=True
-    )
-    return joblib.load("pipeline.joblib")
+    return joblib.load("models/pipelineBackup.pkl")
 
 @st.cache_resource
 def load_clustering_pipeline():
-    return joblib.load("clustering_pipeline.pkl")
+    return joblib.load("models/clustering_pipeline.pkl")
     
 # Load both models
 pipeline = load_classification_pipeline()
 clustering_pipeline = load_clustering_pipeline()
-if pipeline:
-    st.success("✅ Pipeline loaded successfully!")
+
 # ----------------------------
 # Load retention strategies
 # ----------------------------
