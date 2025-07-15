@@ -1,6 +1,6 @@
 streamlit                 # App interface
 pandas                    # Data manipulation
-numpy                     # Numerical operations
+numpy==1.26.4            # Numerical operations
 plotly                    # Interactive plots (express + graph_objects)
 seaborn                   # Statistical plots
 matplotlib                # Static backend for seaborn
@@ -9,8 +9,5 @@ joblib                     # Model serialization
 gdown==4.7.0               # For Google Drive
 category-encoders==2.6.0   # For Pipeline
 xgboost==3.0.1             # for Pipline
-
-
-
 
 
